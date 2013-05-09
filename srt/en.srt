@@ -1,0 +1,99 @@
+1
+00:00:01,000 --> 00:00:03,000
+Hello! My name is Foxkeh.
+
+2
+00:00:03,000 --> 00:00:05,000
+“Foxkeh’s Wallpaper Creator” is a tool
+
+3
+00:00:05,000 --> 00:00:07,000
+that allows you to easily create your own
+
+4
+00:00:07,000 --> 00:00:10,000
+wallpaper on browser using my images.
+
+5
+00:00:10,000 --> 00:00:12,000
+Since it makes use of an advanced web-
+
+6
+00:00:12,000 --> 00:00:14,000
+based technology called SVG, 
+
+7
+00:00:14,000 --> 00:00:16,000
+it allows for the personalization of
+
+8
+00:00:16,000 --> 00:00:18,000
+various designs just by using Firefox
+
+9
+00:00:18,000 --> 00:00:20,000
+without installing any plug-ins.
+
+10
+00:00:20,000 --> 00:00:21,000
+ 
+
+11
+00:00:21,000 --> 00:00:25,000
+You can select the graphic and move it around, 
+
+12
+00:00:25,000 --> 00:00:28,000
+change its size, 
+
+13
+00:00:28,000 --> 00:00:31,000
+make it transparent 
+
+14
+00:00:31,000 --> 00:00:33,000
+and even change the design
+
+15
+00:00:33,000 --> 00:00:35,000
+into a character you like.
+
+16
+00:00:35,000 --> 00:00:37,000
+ 
+
+17
+00:00:37,000 --> 00:00:40,000
+The finished design can be made
+
+18
+00:00:40,000 --> 00:00:42,000
+into a wallpaper on your PC, 
+
+19
+00:00:42,000 --> 00:00:45,000
+set as the standby wallpaper
+
+20
+00:00:45,000 --> 00:00:48,000
+on your mobile phone
+
+21
+00:00:48,000 --> 00:00:51,000
+or used as a Personas theme that allows you
+
+22
+00:00:51,000 --> 00:00:55,000
+to change the look of the Firefox web browser.
+
+23
+00:00:55,000 --> 00:00:56,000
+ 
+
+24
+00:00:56,000 --> 00:00:58,000
+Let’s get creative and make
+
+25
+00:00:58,000 --> 00:01:00,000
+your own wallpaper on Firefox!

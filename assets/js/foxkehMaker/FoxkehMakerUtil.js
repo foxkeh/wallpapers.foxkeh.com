@@ -1,0 +1,1 @@
+var FoxkehMakerUtil=new Object();FoxkehMakerUtil.EventDispatcher=function(){}

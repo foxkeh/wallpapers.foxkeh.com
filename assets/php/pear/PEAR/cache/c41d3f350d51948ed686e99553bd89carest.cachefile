@@ -1,0 +1,19 @@
+a:14:{s:7:"attribs";a:4:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.release";s:9:"xmlns:xsi";s:41:"http://www.w3.org/2001/XMLSchema-instance";s:11:"xmlns:xlink";s:28:"http://www.w3.org/1999/xlink";s:18:"xsi:schemaLocation";s:81:"http://pear.php.net/dtd/rest.release     http://pear.php.net/dtd/rest.release.xsd";}s:1:"p";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:24:"/rest/p/html_template_it";}s:8:"_content";s:16:"HTML_Template_IT";}s:1:"c";s:12:"pear.php.net";s:1:"v";s:5:"1.3.0";s:2:"st";s:6:"stable";s:1:"l";s:20:"Modified BSD license";s:1:"m";s:9:"gregorycu";s:1:"s";s:20:"Integrated Templates";s:1:"d";s:715:"HTML_Template_IT is a templating engine designed to allow easy separation of concerns. It does this by clearly separating the presentational code from the PHP code. The presentation code may be of any format, however generally XML or HTML is used.
+This engine works on the foundation of blocks and placeholders. It uses the hierarchy of blocks to determine which presentational code is instantiated when blocks are parsed. The placeholders allow the insertion of "dynamic" information.
+There are two classes to use for templating. HTML_Template_IT is used for basic templating needs.  HTML_Template_ITX gives you full power over the templating engine, allowing blocks to be added, and function callbacks to be used.";s:2:"da";s:19:"2010-03-10 09:26:03";s:1:"n";s:821:"Changes since last stable release (1.2.1):
+- Add support for pear package 2.0 format
+- Remove support for pear package 1.0 format
+- Fix bug #9501, doller signs disapear if preg_match is used.
+- Fix bug #9783, don't remove variable which values follow the variable pattern
+  To allow backwards compatbility an option preserve_input is added.
+  If it is false, the old behaviour will be used and therefore those values will be deleted.
+  Default is true, so new behaviour.
+- Fix bug #9853, problems with dots in placeholders or blocknames
+- Fix bug #13935, docblock is wrong
+- Fix bug #17129
+- Add option 'preserve_input' to only remove unkown variable that were present
+  during setTemplate or loadTemplatefile
+  which is the behaviour before 1.3.0a1
+- Improved PHPCS (Request #15039)
+- Added unit tests
+- Fixed unit tests";s:1:"f";s:5:"23309";s:1:"g";s:46:"http://pear.php.net/get/HTML_Template_IT-1.3.0";s:1:"x";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:17:"package.1.3.0.xml";}}}

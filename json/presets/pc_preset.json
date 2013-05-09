@@ -1,0 +1,9 @@
+{
+"name"	: "preset",
+"list"	: [
+{
+"thumbnail" : "assets/images/thumbnail/bg/bg_2011_01.png",
+"presetFile" : "/json/presets/pc/2011_01.html"
+}
+]
+}

@@ -1,0 +1,402 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+	<meta content="text/css" http-equiv="Content-Style-Type"/>
+	<meta content="text/javascript" http-equiv="Content-Script-Type"/>
+	<title>フォクすけの壁紙メーカー</title>
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+	<link rel="stylesheet" type="text/css" media="screen,print" href="/assets/css/style.css"/>
+	<script type="text/javascript" src="/assets/js/svgcheck.js"></script>
+	<script type="text/javascript" src="/assets/js/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="/assets/js/jquery.srt.js"></script>
+
+	<script type="text/javascript" src="/assets/js/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript">
+	
+		$(function(){
+			
+			//画面のサイズを取得
+			var screenSize = screen.width+"x"+screen.height;
+			
+			//現在の画面サイズを設定
+			$("#current").html($("#current").html()+"("+screenSize+")").attr("value", screenSize);
+			
+			//PC
+			var pcLink = $("#pc_link").attr("href");
+			
+			setLink($("#pc_link"), pcLink, $('select[name="pc_size"]').val());
+			
+			$('select[name="pc_size"]').change(function(e){
+				
+				setLink($("#pc_link"), pcLink, $('select[name="pc_size"]').val());
+				
+			});
+			
+			//Mobile
+			var mobileLink = $("#mobile_link").attr("href");;
+			setLink($("#mobile_link"), mobileLink, $('select[name="mobile_size"]').val());
+			$('select[name="mobile_size"]').change(function(e){
+				
+				setLink($("#mobile_link"), mobileLink, $('select[name="mobile_size"]').val());
+				
+			});
+			
+			
+		});
+		
+		
+		function setLink(target, href, val) {
+			/*	
+			var sizes = val.split("x");
+			var _w = (typeof sizes[0] != "undefined")? Number(sizes[0]) : "";
+			var _h = (typeof sizes[1] != "undefined")? Number(sizes[1]) : "";
+				
+			 target.attr("href", href+"?w="+_w+"&h="+_h);
+			*/	
+		}
+		
+	</script>
+
+
+</head>
+
+<body id="select_size" class="normal ja">
+	
+	<!--  BEGIN #page -->
+	<div id="page">
+		
+		<!-- BEGIN #header -->
+		<div id="header">
+		
+			<!-- BEGIN #siteTitle -->
+			<div id="siteTitle">
+
+				<p><strong><a href="/ja/index.html" style="background-image: url('/assets/images/site/header_bg_ja.png');">フォクすけの壁紙メーカー</a></strong></p>
+			</div>
+			<!-- END #siteTitle -->
+			
+			<!-- BEGIN #siteSubTitle -->
+			<!-- END #siteSubTitle -->
+		
+			<!-- BEGIN #mainMenu -->
+			<div id="mainMenu">
+				<dl class="menu">
+					<dt class="menuTitle">メインメニュー</dt>
+					<dd>
+<ul class="menu"><li><span class="ja">日本語</span></li><li><a href="/en/creator/index.html">English</a></li></ul> 
+					</dd>
+				</dl>
+			</div>
+
+			<!-- END #mainMenu -->
+			
+			<!-- BEGIN .misc -->
+				<div class="misc">
+					<!-- <p>misc...</p> -->
+				</div>
+			<!-- END .misc -->
+		
+		</div>
+		<!-- END #header -->
+
+<noscript>
+ <div id="noscript">
+<p><img src="../assets/images/site/foxkeh_cry.gif" alt="" /></p>
+<p>フォクすけの壁紙メーカーは、JavaScript の設定が無効になっていると利用できません。<br />JavaScript を有効に設定してから使ってね！</p>
+</div>
+</noscript>
+
+<script type="text/javascript">
+if (document.getElementById("noscript") !== null) {
+  document.getElementById("noscript").style.display = "none";
+}
+</script>
+
+<div>
+ <div id="updateFirefox">
+<p><strong>フォクすけの壁紙メーカーは、最新版の Firefox で使ってね！  </strong></p><p> <a href="http://www.getfirefox.com/"><img src="http://images.spreadfirefox.com/firefox/3.6/200x32_best_orange.png" alt="Get Firefox!" /></a></p>
+<a id="getfirefoxpage" href="/ja/getfirefox.html"></a>
+</div>
+ <div id="svgIsNotAvaiable">/<p><strong>あなたが今お使いのブラウザ (インターネット閲覧ソフト) は、Web 標準技術である SVG に対応していません。フォクすけの壁紙メーカーをお使いいただくには、SVG に対応したブラウザが必要です。  </strong></p> <p>ぜひお使いのパソコンに Firefox をインストールしてからこのページをご覧ください。</p> <p><a href="http://mozilla.jp/firefox/">▶ Firefox ってなに？</a></p> </div>
+</div>
+	
+		<!-- BEGIN #mainContents -->
+
+		<div id="mainContents">
+			
+			<!-- BEGIN .chapter -->
+			<div class="chapter">
+			
+				<!-- BEGIN #pageTitle -->
+				<div  id="pageTitle">
+					<h1>壁紙の種類とサイズを決めて、カスタマイズスタート!!!</h1>
+				</div>
+				<!-- END #pageTitle -->
+				
+				<!-- BEGIN #mainEntries -->
+				<div id="mainEntries">
+				
+					<!-- BEGIN .hentry -->
+
+					<div class="hentry">
+					
+						<!-- BEGIN .section -->
+						<div class="section">
+							<!-- <h2 class="entry-title"></h2> --> 
+							
+							<!-- BEGIN .entry-content -->
+							<div class="entry-content ">
+								<!-- BEGIN .subsection -->
+								<div class="subsection">
+									
+									<!-- BEGIN CMS USER EDITABLE CONTENTS-->
+
+									
+									
+									
+									
+<!-- BEGIN .hentry -->
+<div class="hentry" style="width: 385px; float: left; padding-right: 11px; border-right: 4px dotted #663300;">
+					
+						<!-- BEGIN .section -->
+<div class="section" style="padding-bottom: 0px; border-bottom: none;">
+<h2 class="entry-title">PCのデスクトップ壁紙を作ろう！</h2>
+<!-- BEGIN .entry-content -->
+<div class="entry-content ">
+								<!-- BEGIN .subsection -->
+<div class="subsection">
+									
+									<!-- BEGIN CMS USER EDITABLE CONTENTS-->
+<p class="img"><img src="/assets/images/site/pc_size_img.png" alt="" width="370" height="200"></p>
+<div class="select_size" style="width: 270px; margin: 0 auto; margin-bottom: 10px;">
+									<form method="get" action="/ja/creator/pc.xhtml">
+<p style="margin-bottom: 0px;">画面のサイズを選んでください。</p>
+<select style="width: 270px;" name="size">
+										<option id="current" value="">今お使いの PC の画面サイズ</option>
+										<option value="1024x768">1024x768</option>
+										<option value="1152x864">1152x864</option>
+										<option value="1280x768">1280x768</option>
+										<option value="1280x800">1280x800</option>
+										<option value="1280x960">1280x960</option>
+										<option value="1280x1024">1280x1024</option>
+										<option value="1400x1050">1400x1050</option>
+										<option value="1440x900">1440x900</option>
+										<option value="1600x1200">1600x1200</option>
+										<option value="1680x1050">1680x1050</option>
+										<option value="1920x1200">1920x1200</option>
+										<option value="2560x1440">2560x1440</option>
+										<option value="2560x1600">2560x1600</option>
+										<option value="2560x1600">2560x1600(Mac Retina 13')</option>
+										<option value="2880x1800">2880x1800(Mac Retina 15')</option>
+										<option value="1024x1024">1024x1024 (iPad)</option>
+										<option value="851x315">851x315 (Facebook)</option>
+									</select>
+									<p>&nbsp;</p>
+<p class="customize customize_ja" style="text-align: center;"><input type="image" src="/assets/images/site/start_button.png" alt="CUSTOMIZE" /></p>
+									</form>
+									</div>
+<!-- select_size -->
+<!-- END CMS USER POSTED CONTENTS-->
+									
+								</div>
+<!-- END .subsection -->
+							</div>
+<!-- END .entry-content -->
+						</div>
+<!-- END .section-->
+									
+					</div>
+<!-- END .hentry -->
+					
+					
+					<!-- BEGIN .hentry -->
+<div class="hentry" style="width: 385px; margin-left: 430px; padding-bottom: 67px;">
+					
+						<!-- BEGIN .section -->
+<div class="section" style="padding-bottom: 0px; border-bottom: none;">
+<h2 class="entry-title">携帯の待ち受け画面を作ろう！</h2>
+<!-- BEGIN .entry-content -->
+<div class="entry-content ">
+								<!-- BEGIN .subsection -->
+<div class="subsection">
+									
+									<!-- BEGIN CMS USER EDITABLE CONTENTS-->
+<p class="img"><img src="/assets/images/site/mobile_size_img.png" alt="" width="370" height="200"></p>
+<div class="select_size" style="width: 270px; margin: 0 auto; margin-bottom: 10px;">
+									<form method="get" action="/ja/creator/mobile.xhtml">
+<p style="margin-bottom: 0px;">画面のサイズを選んでください。</p>
+<select style="width: 270px;" name="size">
+<option value="320x480">320x480 (HVGA - 2:3)</option>
+<option value="480x640">480x640 (VGA - 3:4)</option>
+<option value="480x854">480x854 (FWWGA - 9:16)</option>
+<option value="480x800">480x800 (WVGA - 3:5)</option>
+<option value="480x854">480x854 (FWVGA - 9:16)</option>
+<option value="540x960">540x960 (qHD - 9:16)</option>
+<option value="640x960">640x960 (iPhone4/4S - 2:3)</option>
+<option value="640x1136">640x1136 (iPhone5 - 9:16)</option>
+<option value="720x1280">720x1280 (HD - 9:16)</option>
+<option value="768x1024">768x1024 (XGA - 3:4)</option>
+<option value="800x1280">800x1280 (WXGA - 5:8)</option>
+<option value="1080x1920">1080x1920 (FullHD - 9:16)</option>
+<option value="1405x1280">1405x1280 (Nexus7)</option>
+<option value="2560x1600">2560x1600 (WQXGA, Nexus10 - 8:5)</option>
+<option value="1024x1024">1024x1024 (iPad, iPad mini)</option>
+<option value="2048x2048">2048x2048 (iPad Retina)</option>
+										</select>
+<p><label><input type="checkbox" id="android-width" name="android" value="1" /> 横幅を 2 倍にする (Android 用)</label></p>
+<p class="customize customize_ja" style="text-align: center;"><input type="image" src="/assets/images/site/start_button.png" alt="CUSTOMIZE" /></p>
+										</form>
+									</div>
+<!-- size -->
+<!-- END CMS USER POSTED CONTENTS-->
+									
+								</div>
+<!-- END .subsection -->
+							</div>
+<!-- END .entry-content -->
+						</div>
+<!-- END .section-->
+									
+					</div>
+<!-- END .hentry -->
+					
+					
+					<!-- BEGIN .hentry -->
+<div class="hentry" style="border-top: 4px dotted #663300; padding-top: 20px;">
+					
+						<!-- BEGIN .section -->
+<div class="section">
+<h2 class="entry-title">Personas (ペルソナ) テーマを作ろう！</h2>
+<!-- BEGIN .entry-content -->
+<div class="entry-content ">
+								<!-- BEGIN .subsection -->
+<div class="subsection">
+									
+									<!-- BEGIN CMS USER EDITABLE CONTENTS-->
+<div class="wallpaper_image">
+<p class="img"><img src="/assets/images/site/persona_size_img.png" alt="" width="416" height="215"></p>
+</div>
+<div class="wallpaper_description">
+<p>Personas は、気分に合わせて Firefox のウィンドウデザインを簡単に変えられる、新しいテーマ機能です。PCのデスクトップ壁紙や携帯の待ち受け画面のように、Firefox も自分好みに着せ替えしてみよう！</p>
+<p style="text-align: right;"><a href="http://mozilla.jp/firefox/personas/" style="color: #af6265;">Personas について詳しくはこちら</a></p>
+<p class="customize customize_ja"><a href="/ja/creator/personas.xhtml">CUSTOMIZE</a></p>
+</div>
+<!-- END #movie_description -->
+																		
+									<!-- END CMS USER POSTED CONTENTS-->
+									
+								</div>
+<!-- END .subsection -->
+							</div>
+<!-- END .entry-content -->
+						</div>
+<!-- END .section-->
+									
+					</div>
+<!-- END .hentry -->
+																		
+									<!-- END CMS USER POSTED CONTENTS-->
+									
+								</div>
+								<!-- END .subsection -->
+							</div>
+							<!-- END .entry-content -->
+
+						</div>
+						<!-- END .section-->
+							
+							
+									
+					</div>
+					<!-- END .hentry -->
+				
+				</div>	
+				<!-- END #mainEntries -->
+			
+			</div>
+			<!-- END .chapter -->
+		
+		</div>
+
+		<!-- END #mainContents -->
+		
+		<!-- BEGIN #subContents1 -->
+		<div id="subContents1">
+		<!-- BEGIN .section -->
+			<div class="section" id="sample_wallpaper">
+				<div class="subContentsTitle"></div>
+				<div class="subContentsDescription"></div>
+				<div class="subcontent">
+
+					<!-- BEGIN .subsection -->
+						
+						<!-- BEGIN CMS USER EDITABLE CONTENTS-->
+						
+
+															
+						<!-- END CMS USER POSTED CONTENTS-->
+						
+				</div>
+				<!-- END .subcontent -->
+	
+			</div>
+			<!-- END .section-->
+		</div>
+
+		<!-- END #subContents1 -->
+
+
+		<!-- BEGIN #subContents2 -->
+		<div id="subContents2">					
+
+
+				
+		</div>
+		<!-- END #subContents2 -->
+		
+		<!-- BEGIN #footer -->
+		<div id="footer">
+		
+			<!-- BEGIN #submenu -->
+			<div id="submenu">
+			
+				<!-- BEGIN .menu -->
+				<dl class="menu">
+
+					<dt>サブメニュータイトル</dt>
+					<dd>
+						<ul>
+							<li><a href="/ja/index.html">ホーム</a></li>
+							<li><a href="/ja/creator/index.html">カスタマイズページ</a></li>
+							<li><a href="/ja/faq.html">使い方ページ</a></li>
+							<li><a href="http://foxkeh.jp/faq/">フォクすけとは？</a></li>
+						</ul>
+
+					</dd>
+				</dl>
+				<!-- END .menu -->					
+				
+			</div>
+			<!-- END #submenu -->
+			
+			<div id="copyright">
+				<address>Copyright © 2006-2013 Mozilla Japan. All rights reserved. 一部のコンテンツは Creative Commons ライセンスのもとで公開されています。利用条件は各コンテンツの注釈をご参照ください。Mozilla、Firefox、Firefox ロゴは、米国 Mozilla Foundation の米国およびその他の国における商標または登録商標です。その他記載されている会社名、製品名等は、該当する各社の商標または登録商標です。</address>
+			</div>
+
+			
+			<div class="misc">
+				<!-- <p></p> -->
+			</div>
+			
+		</div>
+		<!-- END #footer -->
+
+
+	
+	</div>
+	<!-- END #page -->
+	
+</body>
+
+</html>

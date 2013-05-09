@@ -1,0 +1,381 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+	<meta content="text/css" http-equiv="Content-Style-Type"/>
+	<meta content="text/javascript" http-equiv="Content-Script-Type"/>
+	<title>Foxkeh's Wallpaper Creator</title>
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+	<link rel="stylesheet" type="text/css" media="screen,print" href="/assets/css/style.css"/>
+	<script type="text/javascript" src="/assets/js/svgcheck.js"></script>
+	<script type="text/javascript" src="/assets/js/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="/assets/js/jquery.srt.js"></script>
+
+	<script type="text/javascript" src="/assets/js/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript">
+	
+		$(function(){
+			
+			//画面のサイズを取得
+			var screenSize = screen.width+"x"+screen.height;
+			
+			//現在の画面サイズを設定
+			$("#current").html($("#current").html()+"("+screenSize+")").attr("value", screenSize);
+			
+			//PC
+			var pcLink = $("#pc_link").attr("href");
+			
+			setLink($("#pc_link"), pcLink, $('select[name="pc_size"]').val());
+			
+			$('select[name="pc_size"]').change(function(e){
+				
+				setLink($("#pc_link"), pcLink, $('select[name="pc_size"]').val());
+				
+			});
+			
+			//Mobile
+			var mobileLink = $("#mobile_link").attr("href");;
+			setLink($("#mobile_link"), mobileLink, $('select[name="mobile_size"]').val());
+			$('select[name="mobile_size"]').change(function(e){
+				
+				setLink($("#mobile_link"), mobileLink, $('select[name="mobile_size"]').val());
+				
+			});
+			
+			
+		});
+		
+		
+		function setLink(target, href, val) {
+			/*	
+			var sizes = val.split("x");
+			var _w = (typeof sizes[0] != "undefined")? Number(sizes[0]) : "";
+			var _h = (typeof sizes[1] != "undefined")? Number(sizes[1]) : "";
+				
+			 target.attr("href", href+"?w="+_w+"&h="+_h);
+			*/	
+		}
+		
+	</script>
+
+
+</head>
+
+<body id="select_size" class="normal en">
+	
+	<!--  BEGIN #page -->
+	<div id="page">
+		
+		<!-- BEGIN #header -->
+		<div id="header">
+		
+			<!-- BEGIN #siteTitle -->
+			<div id="siteTitle">
+
+				<p><strong><a href="/en/index.html" style="background-image: url('/assets/images/site/header_bg_en.png');">Foxkeh's Wallpaper Creator</a></strong></p>
+			</div>
+			<!-- END #siteTitle -->
+			
+			<!-- BEGIN #siteSubTitle -->
+			<!-- END #siteSubTitle -->
+		
+			<!-- BEGIN #mainMenu -->
+			<div id="mainMenu">
+				<dl class="menu">
+					<dt class="menuTitle">メインメニュー</dt>
+					<dd>
+<ul class="menu"><li><a class="ja" href="/ja/creator/index.html">日本語</a></li><li>English</li></ul> 
+					</dd>
+				</dl>
+			</div>
+
+			<!-- END #mainMenu -->
+			
+			<!-- BEGIN .misc -->
+				<div class="misc">
+					<!-- <p>misc...</p> -->
+				</div>
+			<!-- END .misc -->
+		
+		</div>
+		<!-- END #header -->
+
+<noscript>
+ <div id="noscript">
+<p>You cannot use Foxkeh&rsquo;s Wallpaper Creator if JavaScript is disabled.<br />Make sure you enable JavaScript before using the program.</p>
+</div>
+</noscript>
+
+<script type="text/javascript">
+if (document.getElementById("noscript") !== null) {
+  document.getElementById("noscript").style.display = "none";
+}
+</script>
+
+<div>
+ <div id="updateFirefox">
+<p><strong>Run Foxkeh\'s Wallpaper Creator with the most up-to-date version of Firefox.</strong> </p><p><a href="http://www.getfirefox.com/"><img src="http://images.spreadfirefox.com/firefox/3.6/200x32_best_orange.png"  alt="Get Firefox!" /></a></p>
+<a id="getfirefoxpage" href="/en/getfirefox.html"></a>
+</div>
+ <div id="svgIsNotAvaiable">/<p><strong>SVG is not available in your browser. </strong></p> <p>Foxkeh's Wallpaper Creator is not visible by browsers which do not support the SVG standard. In this situation, we recommend that users visit the page again using Firefox.</p> <p><a href="http://www.getfirefox.com/"> » What is Firefox?</a></p></div>
+</div>
+	
+		<!-- BEGIN #mainContents -->
+
+		<div id="mainContents">
+			
+			<!-- BEGIN .chapter -->
+			<div class="chapter">
+			
+				<!-- BEGIN #pageTitle -->
+				<div  id="pageTitle">
+					<h1>Choose the type and size of wallpaper and start personalizing!</h1>
+				</div>
+				<!-- END #pageTitle -->
+				
+				<!-- BEGIN #mainEntries -->
+				<div id="mainEntries">
+				
+					<!-- BEGIN .hentry -->
+
+					<div class="hentry">
+					
+						<!-- BEGIN .section -->
+						<div class="section">
+							<!-- <h2 class="entry-title"></h2> --> 
+							
+							<!-- BEGIN .entry-content -->
+							<div class="entry-content ">
+								<!-- BEGIN .subsection -->
+								<div class="subsection">
+									
+									<!-- BEGIN CMS USER EDITABLE CONTENTS-->
+
+									
+									
+<!-- BEGIN .hentry -->
+<div class="hentry" style="width: 385px; float: left; padding-right: 11px; border-right: 4px dotted #663300;">
+<!-- BEGIN .section -->
+<div class="section" style="padding-bottom: 0px; border-bottom: none;">
+<h2 class="entry-title">Let&rsquo;s create a desktop wallpaper for your PC!</h2>
+<!-- BEGIN .entry-content -->
+<div class="entry-content ">
+<!-- BEGIN .subsection -->
+<div class="subsection">
+<!-- BEGIN CMS USER EDITABLE CONTENTS-->
+<p class="img"><img src="/assets/images/site/pc_size_img.png" alt="" width="370" height="200" /></p>
+<div class="select_size" style="width: 270px; margin: 0 auto; margin-bottom: 10px;">
+<form method="get" action="/en/creator/pc.xhtml">
+<p style="margin-bottom: 0px;">Select your monitor size:</p>
+<select style="width: 270px;" name="size">
+<option id="current">Current Desktop Size</option>
+<option value="1024x768">1024x768</option>
+<option value="1152x864">1152x864</option>
+<option value="1280x768">1280x768</option>
+<option value="1280x800">1280x800</option>
+<option value="1280x960">1280x960</option>
+<option value="1280x1024">1280x1024</option>
+<option value="1400x1050">1400x1050</option>
+<option value="1440x900">1440x900</option>
+<option value="1600x1200">1600x1200</option>
+<option value="1680x1050">1680x1050</option>
+<option value="1920x1200">1920x1200</option>
+<option value="2560x1440">2560x1440</option>
+<option value="2560x1600">2560x1600</option>
+<option value="2560x1600">2560x1600(Mac Retina 13')</option>
+<option value="2880x1800">2880x1800(Mac Retina 15')</option>
+<option value="1024x1024">1024x1024 (iPad)</option>
+<option value="851x315">851x315 (Facebook)</option>
+</select>
+<p>&nbsp;</p>
+<p class="customize customize_ja" style="text-align: center;"><input type="image" src="assets/images/site/customize_button.png" alt="CUSTOMIZE" /></p>
+</form></div>
+<!-- select_size -->
+<!-- END CMS USER POSTED CONTENTS-->
+</div>
+<!-- END .subsection -->
+</div>
+<!-- END .entry-content -->
+</div>
+<!-- END .section-->
+</div>
+<!-- END .hentry -->
+<!-- BEGIN .hentry -->
+<div class="hentry" style="width: 385px; margin-left: 430px; padding-bottom: 67px;">
+<!-- BEGIN .section -->
+<div class="section" style="padding-bottom: 0px; border-bottom: none;">
+<h2 class="entry-title">Let&rsquo;s create a standby wallpaper for your mobile phone!</h2>
+<!-- BEGIN .entry-content -->
+<div class="entry-content ">
+<!-- BEGIN .subsection -->
+<div class="subsection">
+<!-- BEGIN CMS USER EDITABLE CONTENTS-->
+<p class="img"><img src="assets/images/site/mobile_size_img.png" alt="" width="370" height="200" /></p>
+<div class="select_size" style="width: 270px; margin: 0 auto; margin-bottom: 10px;">
+<form method="get" action="/en/creator/mobile.xhtml">
+<p style="margin-bottom: 0px;">Select your mobile size:</p>
+<select style="width: 270px;" name="size">
+<option value="320x480">320x480 (HVGA - 2:3)</option>
+<option value="480x640">480x640 (VGA - 3:4)</option>
+<option value="480x854">480x854 (FWWGA - 9:16)</option>
+<option value="480x800">480x800 (WVGA - 3:5)</option>
+<option value="480x854">480x854 (FWVGA - 9:16)</option>
+<option value="540x960">540x960 (qHD - 9:16)</option>
+<option value="640x960">640x960 (iPhone4/4S - 2:3)</option>
+<option value="640x1136">640x1136 (iPhone5 - 9:16)</option>
+<option value="720x1280">720x1280 (HD - 9:16)</option>
+<option value="768x1024">768x1024 (XGA - 3:4)</option>
+<option value="800x1280">800x1280 (WXGA - 5:8)</option>
+<option value="1080x1920">1080x1920 (FullHD - 9:16)</option>
+<option value="1405x1280">1405x1280 (Nexus7)</option>
+<option value="2560x1600">2560x1600 (WQXGA, Nexus10 - 8:5)</option>
+<option value="1024x1024">1024x1024 (iPad, iPad mini)</option>
+<option value="2048x2048">2048x2048 (iPad Retina)</option>
+<p><label><input type="checkbox" id="android-width" name="android" value="1" /> To double the width (for Android)</label></p>
+<p class="customize customize_ja" style="text-align: center;"><input type="image" src="/assets/images/site/customize_button.png" alt="CUSTOMIZE" /></p>
+</select>
+</form>
+</div>
+<!-- size -->
+<!-- END CMS USER POSTED CONTENTS-->
+</div>
+<!-- END .subsection -->
+</div>
+<!-- END .entry-content -->
+</div>
+<!-- END .section-->
+</div>
+<!-- END .hentry -->
+<!-- BEGIN .hentry -->
+<div class="hentry" style="border-top: 4px dotted #663300; padding-top: 20px;">
+<!-- BEGIN .section -->
+<div class="section">
+<h2 class="entry-title">Let&rsquo;s create a Persona theme!</h2>
+<!-- BEGIN .entry-content -->
+<div class="entry-content ">
+<!-- BEGIN .subsection -->
+<div class="subsection">
+<!-- BEGIN CMS USER EDITABLE CONTENTS-->
+<div class="wallpaper_image">
+<p class="img"><img src="/assets/images/site/persona_size_img.png" alt="" width="416" height="215" /></p>
+</div>
+<div class="wallpaper_description">
+<p>Personas are innovative themes that allow you to easily change the look of your Firefox browser window. Just like you would change your PC desktop wallpaper and standby screen on your mobile phone to fit your style, you can personalize Firefox to your taste!</p>
+<p style="text-align: right;"><a style="color: #af6265;" href="http://www.getpersonas.com/en-US/">Learn more about Personas</a></p>
+<p class="customize"><a href="/en/creator/personas.xhtml">CUSTOMIZE</a></p>
+</div>
+<!-- END #movie_description -->
+<!-- END CMS USER POSTED CONTENTS-->
+</div>
+<!-- END .subsection -->
+</div>
+<!-- END .entry-content -->
+</div>
+<!-- END .section-->
+</div>
+<!-- END .hentry -->
+																		
+									<!-- END CMS USER POSTED CONTENTS-->
+									
+								</div>
+								<!-- END .subsection -->
+							</div>
+							<!-- END .entry-content -->
+
+						</div>
+						<!-- END .section-->
+							
+							
+									
+					</div>
+					<!-- END .hentry -->
+				
+				</div>	
+				<!-- END #mainEntries -->
+			
+			</div>
+			<!-- END .chapter -->
+		
+		</div>
+
+		<!-- END #mainContents -->
+		
+		<!-- BEGIN #subContents1 -->
+		<div id="subContents1">
+		<!-- BEGIN .section -->
+			<div class="section" id="sample_wallpaper">
+				<div class="subContentsTitle"></div>
+				<div class="subContentsDescription"></div>
+				<div class="subcontent">
+
+					<!-- BEGIN .subsection -->
+						
+						<!-- BEGIN CMS USER EDITABLE CONTENTS-->
+						
+
+															
+						<!-- END CMS USER POSTED CONTENTS-->
+						
+				</div>
+				<!-- END .subcontent -->
+	
+			</div>
+			<!-- END .section-->
+		</div>
+
+		<!-- END #subContents1 -->
+
+
+		<!-- BEGIN #subContents2 -->
+		<div id="subContents2">					
+
+
+				
+		</div>
+		<!-- END #subContents2 -->
+		
+		<!-- BEGIN #footer -->
+		<div id="footer">
+		
+			<!-- BEGIN #submenu -->
+			<div id="submenu">
+			
+				<!-- BEGIN .menu -->
+				<dl class="menu">
+
+					<dt>サブメニュータイトル</dt>
+					<dd>
+						<ul>
+							<li><a href="/en/index.html">Home</a></li>
+							<li><a href="/en/creator/index.html">Create Your Own Wallpaper</a></li>
+							<li><a href="/en/faq.html">FAQ</a></li>
+							<li><a href="http://www.foxkeh.com/faq/">About Foxkeh</a></li>
+						</ul>
+
+					</dd>
+				</dl>
+				<!-- END .menu -->					
+				
+			</div>
+			<!-- END #submenu -->
+			
+			<div id="copyright">
+				<address>Copyright © 2006-2013 Mozilla Japan. All rights reserved. Some contents are licensed under the Creative Commons. Refer to the explanation of each content for details. Mozilla, Firefox and Firefox logo are trademarks or registered trademarks of the Mozilla Foundation in the U.S. and other countries. Other company names and product names are trademarks or registered trademarks of their respective companies.</address>
+			</div>
+
+			
+			<div class="misc">
+				<!-- <p></p> -->
+			</div>
+			
+		</div>
+		<!-- END #footer -->
+
+
+	
+	</div>
+	<!-- END #page -->
+	
+</body>
+
+</html>

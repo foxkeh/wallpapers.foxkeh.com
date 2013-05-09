@@ -1,0 +1,4 @@
+a:8:{s:7:"attribs";a:4:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.package";s:9:"xmlns:xsi";s:41:"http://www.w3.org/2001/XMLSchema-instance";s:11:"xmlns:xlink";s:28:"http://www.w3.org/1999/xlink";s:18:"xsi:schemaLocation";s:80:"http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd";}s:1:"n";s:11:"Archive_Tar";s:1:"c";s:12:"pear.php.net";s:2:"ca";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:20:"/rest/c/File+Formats";}s:8:"_content";s:12:"File Formats";}s:1:"l";s:15:"New BSD License";s:1:"s";s:25:"Tar file management class";s:1:"d";s:257:"This class provides handling of tar files in PHP.
+It supports creating, listing, extracting and adding to tar files.
+Gzip support is available if PHP has the zlib extension built-in or
+loaded. Bz2 compression is also supported with the bz2 extension loaded.";s:1:"r";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:19:"/rest/r/archive_tar";}}}

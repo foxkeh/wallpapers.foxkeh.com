@@ -1,0 +1,21 @@
+@charset "UTF-8";/*Copyright (c) 2009, OFFIBA.com All rights reserved.version: 0.0.1Color 0001*//************************************ * *  basic color * ***********************************/body {	color: #000000;	background-color: #cccccc;}a {	color: #FF0000;	text-decoration: none;}a:visited {	color: #FF00FF;}a:hover {	color: #FF9999;}
+
+#header {
+	background-color: #79B30B;
+}
+
+#mainContents .chapter {
+	background-color: #FFFFFF;	
+}
+
+#subContents1 {
+		background-color: rgb(255,204,153);
+}
+
+#subContents2 {
+	background-color: rgb(204,204,255);
+}
+
+#footer {
+	background-color: rgb(153,153,153);
+}

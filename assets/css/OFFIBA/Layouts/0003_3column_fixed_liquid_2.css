@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+/*
+Copyright (c) 2009, OFFIBA.com All rights reserved.
+version: 0.0.1
+
+Template1
+試作用テンプレート（2カラム リキッド/ side fixed）
+
+*/
+
+/************************************
+ *
+ * main layout
+ *
+ ***********************************/
+
+#page {
+	width: 100%;
+}
+ 
+#mainContents {
+	width: 100%;
+	float: right;
+}
+
+#mainContents .chapter {
+	margin: 0 220px;
+}
+ 
+#subContents1 {
+	float: right;
+	margin-right: -100%;
+	width: 200px;
+}
+
+#subContents2 {
+	float: right;
+	margin-right: -200px;
+	width: 200px;
+}
+ 
+#footer {
+	clear: both;
+}

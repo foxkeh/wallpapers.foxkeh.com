@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+/*
+Copyright (c) 2009, OFFIBA.com All rights reserved.
+version: 0.0.1
+*/
+
+/* OFFIBA Template CSS */
+@import url(../OFFIBA/Layouts/0005_3column_fixed_center.css);
+
+/* OFFIBA Colorset CSS */
+@import url(../OFFIBA/Colorset/0003_brown_blue.css);
+
+/* OFFIBA Fontset CSS */
+@import url(../OFFIBA/Fontset/9999_sans-serif_12px_1.5.css);
+
+/* User CSS */
+@import url(./custom.css);
+

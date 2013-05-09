@@ -1,0 +1,14 @@
+a:14:{s:7:"attribs";a:4:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.release";s:9:"xmlns:xsi";s:41:"http://www.w3.org/2001/XMLSchema-instance";s:11:"xmlns:xlink";s:28:"http://www.w3.org/1999/xlink";s:18:"xsi:schemaLocation";s:81:"http://pear.php.net/dtd/rest.release     http://pear.php.net/dtd/rest.release.xsd";}s:1:"p";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:17:"/rest/p/mail_mime";}s:8:"_content";s:9:"Mail_Mime";}s:1:"c";s:12:"pear.php.net";s:1:"v";s:5:"1.7.0";s:2:"st";s:6:"stable";s:1:"l";s:9:"BSD Style";s:1:"m";s:4:"alec";s:1:"s";s:51:"Mail_Mime provides classes to create MIME messages.";s:1:"d";s:395:"Mail_Mime provides classes to deal with the creation and manipulation of MIME messages.
+It allows people to create e-mail messages consisting of:
+* Text Parts
+* HTML Parts
+* Inline HTML Images
+* Attachments
+* Attached messages
+
+It supports big messages, base64 and quoted-printable encodings and
+non-ASCII characters in filenames, subjects, recipients, etc. encoded
+using RFC2047 and/or RFC2231.";s:2:"da";s:19:"2010-04-12 12:03:48";s:1:"n";s:233:"Implemented Features:
+ * Added Mail_mime::setContentType() function with possibility to set various
+   types in Content-Type header (also fixes problem with boundary parameter when Content-Type
+   header was specified by user) [alec]";s:1:"f";s:5:"31175";s:1:"g";s:39:"http://pear.php.net/get/Mail_Mime-1.7.0";s:1:"x";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:17:"package.1.7.0.xml";}}}

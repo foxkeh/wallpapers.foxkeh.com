@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+/*
+Copyright (c) 2009, OFFIBA.com All rights reserved.
+version: 0.0.1
+
+Fontset 0001
+
+*/
+
+body.ja { font-family: "Lucida Grande", "DejaVu Sans", "Bitstream VeraSans", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Verdana, "ＭＳ Ｐゴシック", "MS PGothic", "VL Pゴシック", "TakaoPゴシック", "IPA Pゴシック", sans-serif;
+}
+
+body.en { font-family: Candara, "Lucida Grande", "DejaVu Sans", "Bitstream Vera Sans", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku GothicPro", メイリオ, Meiryo, Verdana, "ＭＳ Ｐゴシック", "MS PGothic", "VL Pゴシック", "Takao Pゴシック", "IPA Pゴシック", sans-serif; 
+}
+
+body.ja #mainContents p, body.ja #mainContents li, body.ja .subcontent p, body.ja .subcontent li, pre {
+	font-size: 93%; 
+	line-height: 1.75; 
+}
+
+body.en #mainContents p, body.en #mainContents li, body.en .subcontent p, body.en .subcontent li, pre { 
+	font-size: 110%; 
+	line-height: 1.6; 
+}
+
+#mainContents p,
+#mainContents li,
+.subcontent p,
+.subcontent li
+{
+	font-size: 93%;
+	line-height: 1.75;
+}
+
+#siteTitle strong {
+	font-size: 182%;
+	font-weight: bold;	
+}
+
+
+body.normal #mainContents .chapter #pageTitle h1,
+body.normal #mainContents .chapter #pageSubTitle h2 {
+	font-size: 167%;
+	font-weight: bold;
+	color: #663333;
+}
+
+body.normal h2.entry-title {
+	font-size: 108%;
+	font-weight: bold;
+	/*line-height: 2.5;*/
+	line-height: 1.4;
+	padding-top: 18px;
+}
+
+body#top h2 {
+	font-size: 161.6% !important;
+}
+
+body#operation_method #subContents1 dl.faq dt {
+	font-size: 93%;
+	font-weight: bold;
+	line-height: 1.5;
+}
+
+body#operation_method #subContents1 dl.faq dd {
+	font-size: 93%;	
+	line-height: 1.5;
+}
+
+body.ja pre { font-family: "Lucida Grande", "DejaVu Sans", "Bitstream VeraSans", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Verdana, "ＭＳ Ｐゴシック", "MS PGothic", "VL Pゴシック", "TakaoPゴシック", "IPA Pゴシック", sans-serif;
+}
+
+body.en pre { font-family: Candara, "Lucida Grande", "DejaVu Sans", "Bitstream Vera Sans", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku GothicPro", メイリオ, Meiryo, Verdana, "ＭＳ Ｐゴシック", "MS PGothic", "VL Pゴシック", "Takao Pゴシック", "IPA Pゴシック", sans-serif; 
+}

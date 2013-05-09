@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+/*
+Copyright (c) 2009, OFFIBA.com All rights reserved.
+version: 0.0.1
+
+Color 0001
+
+*/
+
+/************************************
+ *
+ *  basic color
+ *
+ ***********************************/
+ 
+html,
+body
+{
+	background-color: #DFDAB5;
+}
+
+body {
+	color: #6F6540;
+}
+
+a {
+	color: #663333;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #663333;
+}
+
+a:hover {
+	color: #6F3E3E;
+}
+
+#header {
+	background-color: #FAF5CF;
+}
+
+#mainContents {
+	background-color: #EBF6F6;
+}
+
+#subContents1,
+#subContents2
+{
+	background-color: #FAF5CF;
+}
+
+
+body.normal {
+	color: #000;
+}
+
+body.normal h2.entry-title {
+	color: #633;
+}
+body#top h2 {
+	color: #633 !important;
+}
+
+body#operation_method #subContents1 dl.faq dt {
+	color: #F93;
+}

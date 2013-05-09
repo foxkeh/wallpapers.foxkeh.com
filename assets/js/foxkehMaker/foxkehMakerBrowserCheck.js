@@ -1,0 +1,3 @@
+
+$(function(){function onResize(){var _height=$(window).height();if(_height>$("#page").height("auto").height()){$("#page").height(_height);}}
+onResize();window.onresize=onResize;});function isFirefox(){$("#noscript").hide();var isFirefox=(navigator.userAgent.indexOf("Firefox")>0)?navigator.userAgent.indexOf("Firefox")+8:(navigator.userAgent.indexOf("Minefield/")>0)?navigator.userAgent.indexOf("Minefield")+10:-1;var browserVar=navigator.userAgent.substr(isFirefox,3);if(true||isFirefox>0&&browserVar>=3.6){$("#customizeViewer").show();$("#customizeController").show();$("#otherBrowser").hide();return true;}else{$("#otherBrowser").show();return false;}}
